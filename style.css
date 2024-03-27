@@ -6,10 +6,59 @@
 
 
 
-/* STYLE FOR HEADER
+/* STYLE FOR HEADER */
+
+header {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(47,46,83,255)
+}
+
+#navlogo {
+    padding-top: 5%;
+}
+
+#navtitle {
+    color: #38647f;
+    padding-left: 1%;
+    font-size: 200%;
+}
+
+.navlinks {
+    display: flex;
+    gap: 10px;
+    padding-left: 10%;
+
+    a:link {
+        color: white;
+        text-decoration: none;
+      }
+      
+    a:visited {
+        color: white;
+        text-decoration: none;
+      }
+      
+    a:hover {
+        color: #68dacd;
+        text-decoration: none;
+      }
+      
+    a:active {
+        color: #68dacd;
+        text-decoration: none;
+      }  
+}
 
 
-/* STYLE FOR MAIN
+
+/* STYLE FOR MAIN */
 
 /*our story section*/
 
@@ -41,5 +90,7 @@
 
 
 
-/* STYLE FOR FOOTER
+
+
+/* STYLE FOR FOOTER */
 
