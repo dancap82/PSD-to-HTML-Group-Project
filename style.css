@@ -11,6 +11,35 @@
 
 /* STYLE FOR MAIN
 
+/*our story section*/
+
+.story{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:100px;
+    margin:0% 15%;
+}
+
+.content{
+    margin-right:15%;
+    margin-left:10%;
+}
+
+.content h1{
+    padding-bottom: 12px;
+}
+
+.buttonLearn{
+    margin-top:5%;
+    padding:10px;
+    background:white;
+    color: #41f0f3;
+    border-color: #41f0f3;
+    font-weight: bold;
+}
+
+
 
 /* STYLE FOR FOOTER
 
