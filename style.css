@@ -8,6 +8,10 @@
 
 /* STYLE FOR HEADER */
 
+body {
+    height: 100%;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -142,8 +146,32 @@ header {
     font-weight: bold;
 }
 
+/* Video section START */
 
+.video {
+    height: 600px;
+    background-image: url("assets/bgk-middle.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-content: center;
+    text-align: center;
+    align-items: center;
 
+}
+
+.video img{
+    width: 100px;
+    display: block;
+    margin: auto;
+
+}
+.video p{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+/*Video section END */
 
 
 /* STYLE FOR FOOTER */
