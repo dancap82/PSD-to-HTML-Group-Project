@@ -247,19 +247,37 @@ header {
 #expertisesections {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+    width: 250px;
+    padding: 5px; 
+    
     
 }
 
 .expertisesection {
     display: flex;
     flex-direction: column;
-    
+    padding: 20px;  
+
 }
 
 .expertiserow {
     display: flex;
     flex-direction: row;
+    padding: 20px; 
+    
+}
+
+.expertisesection div {
+    margin-bottom: 10px; /* Add margin between each element within the expertise section */
+    padding: 5px; 
+    
+}
+
+.expertisesection img {
+    align-self: center;
+    max-width: 50px; /* Ensure images within expertise sections don't exceed the container width */
+    max-height: 50px /* Maintain the original aspect ratio of the images */
 }
 
 /* STYLE FOR FOOTER */
