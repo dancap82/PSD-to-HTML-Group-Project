@@ -239,3 +239,39 @@ header {
 
 /* STYLE FOR FOOTER */
 
+.parentfooter{
+    display:flex; 
+    padding:20%;
+    justify-content: center;
+    
+}
+.childFooter{
+    border:solid green;
+    align-items: center;
+
+}
+ .topChild {
+    display: flex;
+    border: solid darkorange;
+    flex-direction: row;
+    align-items: center;
+
+}
+.topElement{
+    width: 30%;
+    border:pink solid;
+    align-items: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+
+}
+    
+
+.bottomChild{
+    display:flex;
+    margin: 2%;
+}
+
+     
