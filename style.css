@@ -10,6 +10,7 @@
 
 header {
     display: flex;
+    flex-direction: column;
 }
 
 .navbar {
@@ -18,6 +19,7 @@ header {
     align-items: center;
     justify-content: center;
     background-color: rgba(47,46,83,255)
+    
 }
 
 #navlogo {
@@ -57,45 +59,56 @@ header {
 }
 
 /* About-us START */
+
 .hero {
     background-image: url("assets/bgk-middle.png");
-    height: 25rem;
-    padding: 10%;
+    background-size: 100%;
+    background-repeat: no-repeat;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    width: 100%;
+    height: 600 px;
+    padding: 10% 5%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
 }
 .hero h1 {
-  
     color: white;
     opacity: 0.8;
-    margin: 20px;
+    margin: auto;
+    padding: 2rem;
 }
 .hero hr { 
-    width:5%;
+    border: .5px solid aquamarine;
+    width: 40px;
     margin: auto;
+    opacity: 0.6;
 }
-.hero p {
-    margin: 20px;
+.hero p { 
+    width: 600px;
+    padding: 15px;    
 }
 #p1 {
-    color: whitesmoke;
-    opacity: 0.7;
-    font-size: x-small;
+    color: white;
+    opacity: 0.65;
+    font-size: small;
     line-height: 1.7;
     letter-spacing: 0.4px;
-    padding-left: 14%;
-    padding-right: 14%;
     font-weight: 300;   
 }
-#p2 { color: aquamarine;
-    border: 1.1px solid aquamarine;
+#p2 { 
+    color: aquamarine;
+    border: 1.2px solid aquamarine;
     width: fit-content;
     opacity: 0.65;
-    padding: 8px;
-    margin:  30px auto;
-    font-size: x-small;
-    font-weight: 600;
-    border-radius: 5%;
+    padding: 9px;
+    font-size: small;
+    font-weight: 650;
+    border-radius: 4px;
+    margin: auto;
 }
 /* About-us END*/
 
