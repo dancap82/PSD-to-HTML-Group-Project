@@ -247,12 +247,14 @@ header {
 #expertisesections {
     display: flex;
     flex-direction: column;
-
+    text-align: center;
+    
 }
 
 .expertisesection {
     display: flex;
     flex-direction: column;
+    
 }
 
 .expertiserow {
