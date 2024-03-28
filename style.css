@@ -99,8 +99,7 @@ header {
     display: flex;
     flex-direction:column;
     justify-content:center;
-    background-color: 
-    rgba(47,46,83,255);
+    background-image: url(./assets/bgk-middle.png);
     }
 
 .child1{
@@ -111,9 +110,9 @@ header {
     flex-direction: column;
 
 }
-.child1 h2{
+.child1Header p{
     margin-top:5px;
-    font-size:22px;
+    font-size:20px;
 }
 .child2{
     justify-content:center;
@@ -154,20 +153,24 @@ header {
 
 .child3{
     margin: 5%;
-    border: solid pink; 
+    display:flex;
+   
     justify-content:center;
     align-items: center;
+    text-align: center;
 }
 
-
+.child3children{
+    margin-top:0%;
+}
 .hiringbutton{
     margin-top:5%;
+    margin-bottom:10%;
     padding:10px;
-    background:white;
+    background:transparent;
     color: #41f0f3;
     border-color: #41f0f3;
     font-weight: bold;
-
 }
 
 /*end of team section*/
