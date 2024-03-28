@@ -100,7 +100,9 @@ header {
     flex-direction:column;
     justify-content:center;
     background-image: url(./assets/bgk-middle.png);
+    background-size: 100%;
     }
+
 
 .child1{
     margin: 5%;
