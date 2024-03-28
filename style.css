@@ -234,8 +234,31 @@ header {
 
 
 
+/* STYLE FOR EXPERTISE */
 
+.expertise {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+#expertisesections {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.expertisesection {
+    display: flex;
+    flex-direction: column;
+}
+
+.expertiserow {
+    display: flex;
+    flex-direction: row;
+}
 
 /* STYLE FOR FOOTER */
 
