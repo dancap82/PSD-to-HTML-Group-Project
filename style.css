@@ -6,7 +6,7 @@
 
 
 
-/* STYLE FOR HEADER */
+/* STYLE FOR NAVBAR START*/
 
 header {
     display: flex;
@@ -18,8 +18,7 @@ header {
     width: 100%;
     align-items: center;
     justify-content: center;
-    background-color: rgba(47,46,83,255)
-    
+    background-color: rgba(47,46,83,255)    
 }
 
 #navlogo {
@@ -57,6 +56,8 @@ header {
         text-decoration: none;
       }  
 }
+
+/* STYLE FOR NAVBAR END*/
 
 /* About-us START */
 
@@ -234,7 +235,7 @@ header {
 
 
 
-/* STYLE FOR EXPERTISE */
+/* STYLE FOR EXPERTISE START*/
 
 .expertise {
     display: flex;
@@ -248,37 +249,59 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 250px;
-    padding: 5px; 
-    
-    
+    width: 50%;   
 }
 
 .expertisesection {
     display: flex;
     flex-direction: column;
-    padding: 20px;  
-
 }
 
 .expertiserow {
     display: flex;
     flex-direction: row;
-    padding: 20px; 
-    
+    padding: 20px;     
 }
 
 .expertisesection div {
     margin-bottom: 10px; /* Add margin between each element within the expertise section */
-    padding: 5px; 
-    
+    padding: 5px;     
+}
+
+#b1 {
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+#b2 {
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+#b3 {
+    border-bottom: 1px solid grey;
+}
+
+#b4 {
+    border-right: 1px solid grey;
+}
+
+#b5 {
+    border-right: 1px solid grey;
 }
 
 .expertisesection img {
+    
     align-self: center;
-    max-width: 50px; /* Ensure images within expertise sections don't exceed the container width */
-    max-height: 50px /* Maintain the original aspect ratio of the images */
+    max-width: 50px; 
+    max-height: 50px    
 }
+
+.exptext {
+    color: grey;
+}
+
+/* STYLE FOR EXPERTISE END*/
 
 /* STYLE FOR FOOTER */
 
