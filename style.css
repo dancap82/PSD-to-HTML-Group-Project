@@ -239,10 +239,14 @@ header {
 
 /* STYLE FOR FOOTER */
 
-.parentfooter{
-    display:flex; 
-    padding:20%;
-    justify-content: center;
+.parentFooter{
+    color:white;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    background-image: url(./assets/bgk-footer.png);
+    background-size: 100%;
+    padding: 4% 10%;
     
 }
 .childFooter{
@@ -253,8 +257,11 @@ header {
  .topChild {
     display: flex;
     border: solid darkorange;
+    padding:0% 10%;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
 
 }
 .topElement{
@@ -267,7 +274,20 @@ header {
     flex-direction: column;
 
 }
-    
+  
+.logoline{
+    display:flex;
+    padding-bottom:5%;
+   
+}
+
+#tajam{
+    color: #60acbb;
+    padding-left: 5%;
+    font-size: 200%;
+}
+
+
 
 .bottomChild{
     display:flex;
