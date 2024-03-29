@@ -250,13 +250,10 @@ header {
     
 }
 .childFooter{
-    border:solid green;
     align-items: center;
-
 }
  .topChild {
     display: flex;
-    border: solid darkorange;
     padding:0% 10%;
     flex-direction: row;
     justify-content: center;
@@ -267,14 +264,13 @@ header {
 }
 .topElement{
     width: 30%;
-    border:pink solid;
     align-content: flex-start;
 }
 
 .column2{
    align-self: flex-start;
-   border: solid greenyellow;
    padding-top: 4px;
+   margin-left:100px;
 }
 
 .iconinfo{
@@ -282,19 +278,14 @@ header {
     margin:10px 5px 10px 0px;
 }
 .phone{
-    border: solid pink;
     margin-top:35px;
 }
 .addressIcon, .phoneIcon{
-    border: solid green;
-    margin-right:10px;
-    
-    
+    margin-right:10px; 
 }
 
 .column3{
     align-self: flex-start;
-    border: solid greenyellow;
     padding-top: 4px;
  }
  
@@ -357,8 +348,23 @@ input::placeholder{
 
 .bottomChild{
     display:flex;
-    margin: 5% 11.5%;
+    margin: 5% 14.5% 5% 10%;
+    justify-content: space-between;
 
+}
+
+.last-links{
+    display:flex;
+    justify-content: space-between;
+}
+
+.last-links p{
+    margin-right:40px;
+    font-size:14px;
+}
+
+.copyright{
+    align-self: flex-end;
 }
 
      
