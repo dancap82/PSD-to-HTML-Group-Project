@@ -281,6 +281,10 @@ header {
     display: flex;
     margin:10px 5px 10px 0px;
 }
+.phone{
+    border: solid pink;
+    margin-top:35px;
+}
 .addressIcon, .phoneIcon{
     border: solid green;
     margin-right:10px;
@@ -318,6 +322,7 @@ header {
 
 p{
     line-height: 1.5;
+    color: rgb(240, 238, 238);
 }
 
 h2{
@@ -327,15 +332,33 @@ h2{
 
 .logoCollection{
     display:flex;
+    margin-top: 15px;
     
 }
 .logostay{
     margin-right:7px;
 }
+input::placeholder{
+    color: rgb(240, 238, 238);
+    font-size:14px;
+    padding-left: 10px;
+}
+
+.newsletter{
+    display: flex;
+    margin-top:5px;
+}
+#subscribe-button{
+    background-color:white;
+    opacity:0.5;
+    padding:8px 14px;
+    margin-left: 10px;
+}
 
 .bottomChild{
     display:flex;
-    margin: 2%;
+    margin: 5% 11.5%;
+
 }
 
      
