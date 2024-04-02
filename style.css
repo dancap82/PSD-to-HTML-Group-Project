@@ -311,7 +311,7 @@ header {
     font-size: 200%;
 }
 
-p{
+.footer p{
     line-height: 1.5;
     color: rgb(240, 238, 238);
 }
