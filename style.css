@@ -6,11 +6,17 @@
 
 
 
-/* STYLE FOR NAVBAR START*/
+/* STYLE FOR HEADER */
 
 body {
     height: 100%;
 }
+
+body {
+    height: 100%;
+}
+
+/* STYLE FOR NAVBAR STARTS*/
 
 header {
     display: flex;
@@ -237,11 +243,6 @@ header {
 /*end of team section*/
 
 
-
-/*end of out story section*/
-
-
-
 /* start of team section*/
 
 .team{
@@ -355,6 +356,73 @@ header {
 }
 
 /*Video section END */
+
+/* start of contact section */
+
+.contact { 
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.left { 
+    width: 50%;
+    align-content: center;
+    padding-left: 21%;
+}
+.left h2{
+    margin: 20px 20px 20px 0;
+}
+.left input{ 
+    display: block;
+    width: 400px;
+    height: 35px;
+    margin: 20px 10px 20px 0;
+}
+.left textarea {
+    margin: 0px 10px 10px 0px;
+}
+.left button{ 
+    display: block;
+    margin: 5px 10px 10px 0;
+    padding: 8px 20px;
+    color: aquamarine;
+    border: 2px solid aquamarine;
+    border-radius: 3px;
+    font-size: small;
+    font-weight: 700;
+    background-color: white;
+}
+
+.right { 
+    width: 50%; 
+}
+
+.right h2{
+    height: 100px;
+    padding-top: 60px; 
+}
+.vertical {
+    display: flex;
+    flex-direction: row;
+}
+
+.right img{
+    display: block;
+    margin: 10px 10px 30px 10px;
+}
+
+.first-right{
+    height: 400px;
+    width: 50%;
+}
+
+.second-right{ 
+    height: 400px;
+    width: 50%;
+}
+
+/* end of contact section */
+
 
 /* STYLE FOR EXPERTISE START*/
 
