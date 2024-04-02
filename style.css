@@ -12,6 +12,12 @@ body {
     height: 100%;
 }
 
+body {
+    height: 100%;
+}
+
+/* STYLE FOR NAVBAR STARTS*/
+
 header {
     display: flex;
     flex-direction: column;
@@ -237,7 +243,6 @@ header {
 /*end of team section*/
 
 
-
 /* start of team section*/
 
 .team{
@@ -351,7 +356,6 @@ header {
 }
 
 /*Video section END */
-
 
 /* start of contact section */
 
