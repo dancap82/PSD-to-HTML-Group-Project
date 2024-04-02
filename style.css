@@ -494,3 +494,132 @@ header {
 
 /* STYLE FOR FOOTER */
 
+.parentFooter{
+    color:white;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    background-image: url(./assets/bgk-footer.png);
+    background-size: 100%;
+    padding: 4% 10%;
+    
+}
+.childFooter{
+    align-items: center;
+}
+ .topChild {
+    display: flex;
+    padding:0% 10%;
+    flex-direction: row;
+    justify-content: center;
+    align-content:flex-start;
+    justify-content: space-between;
+    justify-content: space-around;
+
+}
+.topElement{
+    width: 30%;
+    align-content: flex-start;
+}
+
+.column2{
+   align-self: flex-start;
+   padding-top: 4px;
+   margin-left:100px;
+}
+
+.iconinfo{
+    display: flex;
+    margin:10px 5px 10px 0px;
+}
+.phone{
+    margin-top:35px;
+}
+.addressIcon, .phoneIcon{
+    margin-right:10px; 
+}
+
+.column3{
+    align-self: flex-start;
+    padding-top: 4px;
+ }
+ 
+.subscribe{
+    color: white;
+    border: 1px solid rgb(240, 238, 238);
+    background-color: transparent;
+    padding: 10px;
+    width: 200px; 
+    font-size: 16px;
+    box-sizing: border-box; 
+    margin-bottom:10px;
+  }
+
+.logoline{
+    display:flex;
+    padding-bottom:5%; 
+}
+
+#tajam{
+    color: #60acbb;
+    padding-left: 5%;
+    font-size: 200%;
+}
+
+.footer p{
+    line-height: 1.5;
+    color: rgb(240, 238, 238);
+}
+
+h2{
+    font-size: 16px;
+    padding:5% 0%;
+}
+
+.logoCollection{
+    display:flex;
+    margin-top: 15px;
+    
+}
+.logostay{
+    margin-right:7px;
+}
+input::placeholder{
+    color: rgb(240, 238, 238);
+    font-size:14px;
+    padding-left: 10px;
+}
+
+.newsletter{
+    display: flex;
+    margin-top:5px;
+}
+#subscribe-button{
+    background-color:white;
+    opacity:0.5;
+    padding:8px 14px;
+    margin-left: 10px;
+}
+
+.bottomChild{
+    display:flex;
+    margin: 5% 14.5% 5% 10%;
+    justify-content: space-between;
+
+}
+
+.last-links{
+    display:flex;
+    justify-content: space-between;
+}
+
+.last-links p{
+    margin-right:40px;
+    font-size:14px;
+}
+
+.copyright{
+    align-self: flex-end;
+}
+
+     
