@@ -2,8 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Kaleko";
+    src: url("./assets/kaleko-205-round-book.ttf");
+    font-size: small;
 }
 
+@font-face {
+    font-family: "Kaleko";
+    src: url("./assets/kaleko-205-round-book.ttf");
+}
 
 
 /* STYLE FOR HEADER */
@@ -28,7 +35,8 @@ header {
     width: 100%;
     align-items: center;
     justify-content: center;
-    background-color: rgba(47,46,83,255)    
+    background-color: rgba(47,46,83,255);  
+    position: fixed;  
 }
 
 #navlogo {
@@ -344,6 +352,8 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #expertisesections {
